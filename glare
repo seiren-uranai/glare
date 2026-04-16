@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>グレア｜金運の再構築</title>
+    <style>
+        /* ベース設定：ダークな宇宙/潜在意識の奥深くを表現 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            /* ピンクとゴールドが混ざり合うリッチなグラデーション背景 */
+            background: radial-gradient(circle at 50% 0%, #4a0024, #0a0a0a 60%), 
+                        radial-gradient(circle at 80% 80%, #3a2b00, #0a0a0a 50%);
+            background-color: #0a0a0a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* メインのガラス風コンテナ（グラスモーフィズム） */
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: 20px;
+            padding: 40px 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5), 
+                        0 0 20px rgba(255, 215, 0, 0.1);
+        }
+
+        /* アイコン画像（後で自分の画像URLに差し替えなさい） */
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #d4af37; /* ゴールドのフチ */
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* キャッチコピー */
+        h1 {
+            font-size: 22px;
+            color: #d4af37; /* リッチゴールド */
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+
+        /* リード文 */
+        p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #e0e0e0;
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            color: #ff3385; /* グレアのピンク */
+            font-weight: bold;
+        }
+
+        /* LINE誘導ボタン */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #111;
+            text-decoration: none;
+            /* ゴールドのグラデーションで金運を煽る */
+            background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(255, 78, 80, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 78, 80, 0.6);
+        }
+
+        /* ボタンの光沢アニメーション */
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+            transform: skewX(-25deg);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { left: -100%; }
+            20% { left: 200%; }
+            100% { left: 200%; }
+        }
+
+        /* 警告文（覚悟を問う） */
+        .warning {
+            font-size: 11px;
+            color: #888;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/100/ff3385/ffffff?text=Glare" alt="グレア" class="profile-img">
+        
+        <h1>運命をバグらせる<br>準備はできた？</h1>
+        
+        <p>
+            ここまで辿り着いた自分を褒めてあげなさい。<br>
+            ここは、<span class="highlight">凡人の常識を捨て、脳のOSを強制アップデートする</span>ための特別な入り口よ。<br><br>
+            私が直接あんたの現状をデバッグする<br>
+            「金運鑑定」を受け取る覚悟はある？
+        </p>
+
+        <a href="https://lin.ee/your-line-url" class="btn">覚悟を決めて無料で鑑定を受ける</a>
+
+        <div class="warning">
+            ※本気で人生を反転させたい人間だけ進みなさい。<br>
+            冷やかしや、他責思考の奴は今すぐこのページを閉じなさい。
+        </div>
+    </div>
+
+</body>
+</html>
